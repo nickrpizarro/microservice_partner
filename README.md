@@ -20,12 +20,14 @@ Given that this program is meant to only work locally, all files must be in the 
 “difficulty” which describes how difficult this question is to answer correctly. 
 
 REQUEST Data:
+
 The JSON file with the questions (and each questions’ data) is loaded into the server file. The JSON information is loaded into a variable called “quiz_questions”. The data is requested by connecting to the server. The client.py file creates a socket object and connects to the server, using the Host and Port noted on both files. When client_socket.connect() is used, this creates a connection between client and server. After the server also accepts a connection to the client, and loads the JSON data, it will be able to send the encoded data using sendall(). 
 In the example call below, the server has a for loop which loops through the questions found in the quiz_questions object which has the questions json data loaded onto it. The client is then sent the encoded data through the socket:
 
 client_socket.sendall(quiz_questions[questions]['question'].encode())
 
 RECEIVE Data:
+
 Once the connection is established, and accepted between the client and the server, the primary way that data is received is by using recv(1024).decode(), which attempts to receive data in a buffer size of 1024 bytes at a time and decode it. The data can then be assigned to a variable in the client code. Following the example above, the client would need to receive the data on their end. The example below will show how the client recives this data and assigns it to the variable “question:
 
 question = client_socket.recv(1024).decode()
