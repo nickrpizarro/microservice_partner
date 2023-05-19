@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "question": "Who is the Cleveland Cavaliers' all-time leading scorer?",
+        "options": ["LeBron James", "Brad Daugherty", "Mark Price", "Zydrunas Ilgauskas"],
+        "answer": "LeBron James",
+        "difficulty": "easy"
+    },
+    {   "id": 2,
+        "question": "Who won the NBA Finals MVP award when the Cleveland Cavaliers won the championship in 2016?",
+        "options": ["LeBron James", "Kyrie Irving", "Kevin Love", "J.R. Smith"],
+        "answer": "LeBron James",
+        "difficulty": "medium"
+
+    },
+    {
+        "id": 3,
+        "question": "In what year did the Cleveland Cavaliers win their first NBA championship?",
+        "options": ["2015", "2016", "2017", "2018"],
+        "answer": "2016",
+        "difficulty": "medium"
+    },
+    {
+        "id": 4,
+        "question": "What is the name of the Cleveland Cavaliers' home arena?",
+        "options": ["Rocket Mortgage FieldHouse", "Quicken Loans Arena", "FirstEnergy Stadium", "Progressive Field"],
+        "answer": "Rocket Mortgage FieldHouse",
+        "difficulty": "medium"
+    },
+    {
+        "id": 5,
+        "question": "Who is the Cleveland Cavaliers' all-time leader in assists?",
+        "options": ["Mark Price", "Kyrie Irving", "LeBron James", "Terrell Brandon"],
+        "answer": "Mark Price",
+        "difficulty": "hard"
+    },
+    {
+        "id": 6,
+        "question": "What is the Cleveland Cavaliers' longest winning streak in a single season?",
+        "options": ["17 games", "21 games", "25 games", "29 games"],
+        "answer": "13 games",
+        "difficulty": "hard"
+    },
+    {
+        "id": 7,
+        "question": "Who is the Cleveland Cavaliers' head coach for the 2021-2022 NBA season?",
+        "options": ["J.B. Bickerstaff", "John Beilein", "Tyronn Lue", "Mike Brown"],
+        "answer": "J.B. Bickerstaff",
+        "difficulty": "hard"
+    },
+    {
+        "id": 8,
+        "question": "Which player did the Cleveland Cavaliers select with the first overall pick in the 2003 NBA Draft?",
+        "options": ["Carmelo Anthony", "Dwyane Wade", "Chris Bosh", "LeBron James"],
+        "answer": "LeBron James",
+        "difficulty": "medium"
+    },
+    {
+        "id": 9,
+        "question": "Who is the Cleveland Cavaliers' all-time leader in rebounds?",
+        "options": ["Brad Daugherty", "Anderson Varejao", "Zydrunas Ilgauskas", "Larry Nance Sr."],
+        "answer": "Brad Daugherty",
+        "difficulty": "medium"
+    },
+    {
+        "id": 10,
+        "question": "Which player did the Cleveland Cavaliers trade to acquire Kyrie Irving in 2011?",
+        "options": ["Andrew Wiggins", "Dion Waiters", "Tristan Thompson", "J.J. Hickson"],
+        "answer": "J.J. Hickson",
+        "difficulty": "easy"
+    }
+]
